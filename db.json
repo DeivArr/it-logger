@@ -1,0 +1,43 @@
+
+  {
+    "logs": [
+    { 
+        "id": 1, 
+        "message": "blabla blabla blabla 1",
+        "attention": false ,
+        "date": "01-02-2019",
+        "tech": "test name" 
+    },
+    { 
+        "id": 2, 
+        "message": "blabla blabla blabla 2",
+        "attention": true,
+        "date": "02-02-2019",
+        "tech": "test name 1" 
+    },
+    { 
+        "id": 3, 
+        "message": "blabla blabla blabla 3",
+        "attention": false,
+        "date": "03-02-2019",
+        "tech": "test name 2" 
+    }
+  ],
+  "techs": [
+    { 
+        "id": 1, 
+        "firstName": "David",
+        "lastName": "Arriaga" 
+    },
+    { 
+        "id": 2, 
+        "firstName": "Second name",
+        "lastName": "Gon"
+    },
+    { 
+        "id": 3, 
+        "firstName": "Dsdfiolk",
+        "lastName": "Arr"
+    }
+  ]
+}
