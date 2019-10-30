@@ -1,5 +1,6 @@
 import React from 'react';
 import Momment from 'react-moment';
+import PropTypes from 'prop-types';
 
 const logItem = ({log}) => {
     return (
@@ -16,9 +17,16 @@ const logItem = ({log}) => {
                     <span className = "black-text">{log.tech}</span> on
                     <Momment format = "MMMM Do YYYY" />
                 </span>
+                <a href = "" className = "secondary-content">
+                    <li className = "material-icons grey-text">delete</li>
+                </a>
             </div>
         </li>
     )
 }
+
+logItem.propTypes = {
+    log: PropTypes.object.isRequired
+};
 
 export default logItem
